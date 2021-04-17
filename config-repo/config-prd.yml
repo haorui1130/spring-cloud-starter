@@ -1,8 +1,12 @@
 spring:
   application:
-    name: spring-cloud-producer
+    name: spring-cloud-consumer
 server:
-  port: 9020
+  port: 9001
+feign:
+  circuitbreaker:
+    enabled: true
+# 打开hystrix熔断
 eureka:
   client:
     serviceUrl:

@@ -1,15 +1,2 @@
-spring:
-  application:
-    name: spring-cloud-consumer
-server:
-  port: 9001
-feign:
-  circuitbreaker:
-    enabled: true
-# 打开hystrix熔断
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://rui2:8002/eureka/
 env:
   prd
